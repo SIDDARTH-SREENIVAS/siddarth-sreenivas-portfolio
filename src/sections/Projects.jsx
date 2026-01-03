@@ -7,7 +7,6 @@ const projects = [
       "TNS INQUIRE is a cross-platform real estate management application built with Flutter, specifically designed for TNS & SONS to streamline property transactions, client relationships, and sales performance tracking. The app serves as a centralized hub for managing sellers, buyers, and the end-to-end deal lifecycle.",
     image: "/projects/project1.png",
     tags: ["Flutter", "Dart"],
-    github: "#",
   },
   {
     title: "75% Tracker",
@@ -15,7 +14,6 @@ const projects = [
       "Developed a cross-platform mobile application designed to eliminate attendance anxiety for university students. The app automates the complex task of tracking academic requirements against a strict 75% threshold, providing real-time eligibility insights.",
     image: "/projects/project2.png",
     tags: ["Flutter", "Dart"],
-    github: "#",
   },
 ];
 
