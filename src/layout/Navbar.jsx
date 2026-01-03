@@ -2,10 +2,6 @@ import { Button } from "@/components/Button";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
-<a href="/" className="text-xl font-bold tracking-tight hover:text-primary transition-all">
-  Siddarth<span className="text-primary">.</span>Sreenivas
-</a> 
-
 const navLinks = [
   { href: "#about", label: "About" },
   { href: "#projects", label: "Projects" },

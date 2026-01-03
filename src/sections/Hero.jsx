@@ -94,18 +94,24 @@ export const Hero = () => {
               <a href="#contact" onClick={() => setIsMobileMenuOpen(false)}>
               <Button className="w-full">Contact Me</Button>
             </a>
-              <AnimatedBorderButton>
-                <Download className="w-5 h-5" />
-                Download CV
-              </AnimatedBorderButton>
+              <a 
+                href="/Siddarth_Sreenivas_CV.pdf" 
+                download="Siddarth_Sreenivas_CV.pdf"
+                className="inline-block"
+              >
+                <AnimatedBorderButton>
+                  <Download className="w-5 h-5" />
+                  Download CV
+                </AnimatedBorderButton>
+              </a>
             </div>
 
             {/* Social Links */}
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
-                { icon: Github, href: "#" },
-                { icon: Linkedin, href: "#" },
+                { icon: Github, href: "https://github.com/SIDDARTH-SREENIVAS" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/siddarth-sreenivas-363177323/" },
               ].map((social, idx) => (
                 <a
                   key={idx}
