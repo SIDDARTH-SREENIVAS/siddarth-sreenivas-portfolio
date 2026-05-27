@@ -7,7 +7,11 @@ export function AboutMeSection() {
   const [flipped, setFlipped] = useState(false);
 
   return (
-    <section id="about" className="py-20 sm:py-28">
+    <section
+      id="about"
+      className="py-20 sm:py-28"
+      onPointerLeave={() => setFlipped(false)}
+    >
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <motion.div
           layout
@@ -27,8 +31,7 @@ export function AboutMeSection() {
               <div className="absolute -inset-2 rounded-3xl bg-action/10 blur-2xl pointer-events-none" />
               <div
                 className="relative overflow-hidden rounded-3xl border border-black/10 bg-white cursor-pointer"
-                onPointerEnter={() => setFlipped(false)}
-                onPointerLeave={() => setFlipped(false)}
+                onPointerEnter={() => setFlipped((prev) => !prev)}
               >
                 <img
                   src="/about-laptop-person.png"

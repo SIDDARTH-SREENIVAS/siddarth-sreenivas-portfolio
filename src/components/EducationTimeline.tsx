@@ -28,7 +28,7 @@ const education = [
 
 export function EducationTimeline() {
   return (
-    <section className="py-20 sm:py-28">
+    <section id="education" className="py-20 sm:py-28">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="max-w-2xl mb-12">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-black/10 bg-white">
